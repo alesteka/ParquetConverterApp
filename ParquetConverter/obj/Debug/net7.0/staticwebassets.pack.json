@@ -5,18 +5,6 @@
       "PackagePath": "staticwebassets\\ParquetConverter.bundle.scp.css"
     },
     {
-      "Id": "C:\\dotnetCourse1\\ParquetConverter\\wwwroot\\UploadedFiles\\f.parquet",
-      "PackagePath": "staticwebassets\\UploadedFiles\\f.parquet"
-    },
-    {
-      "Id": "C:\\dotnetCourse1\\ParquetConverter\\wwwroot\\UploadedFiles\\p.parquet",
-      "PackagePath": "staticwebassets\\UploadedFiles\\p.parquet"
-    },
-    {
-      "Id": "C:\\dotnetCourse1\\ParquetConverter\\wwwroot\\UploadedFiles\\userdata1.parquet",
-      "PackagePath": "staticwebassets\\UploadedFiles\\userdata1.parquet"
-    },
-    {
       "Id": "C:\\dotnetCourse1\\ParquetConverter\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

@@ -4,7 +4,6 @@ using Apache.Arrow;
 using Apache.Arrow.Ipc;
 
 
-#nullable enable
 namespace ParquetConverter.Controllers;
 
 public class UploadController : Microsoft.AspNetCore.Mvc.Controller
@@ -23,7 +22,7 @@ public class UploadController : Microsoft.AspNetCore.Mvc.Controller
     [Microsoft.AspNetCore.Mvc.HttpPost]
     public async Task< Microsoft.AspNetCore.Mvc.ActionResult> UploadFileNew(ParquetModel file)
     {
-    Parquet.Rows.Table tbl = null;
+    Parquet.Rows.Table? tbl = null;
 
     if (file != null && file.Parquet != null && file.Parquet.Length > 0)
         {
@@ -35,7 +34,7 @@ public class UploadController : Microsoft.AspNetCore.Mvc.Controller
             System.Console.WriteLine(tbl[0]);
             foreach(var j in tbl)
             {
-                List<string> innerList = new List<string>();
+                List<string>? innerList = new List<string>();
 
                 try{
                     for (int i = 0; i < j.Count();i++){                                                
@@ -61,7 +60,7 @@ public class UploadController : Microsoft.AspNetCore.Mvc.Controller
         return View();
     }
 
-    public async Task<IActionResult> GetFile()
+    public  IActionResult GetFile()
     {
         string fp = _webHostEnvironment.WebRootPath + "\\parq.txt";
         FileStream stream = System.IO.File.OpenRead(fp);
@@ -77,65 +76,4 @@ public class UploadController : Microsoft.AspNetCore.Mvc.Controller
             return recordBatch;
         }
     }
-
-
-    
-
-
-
-    //public async Task<IActionResult> Createe()
-   // public async Task<IActionResult> Createe()
-   // {
-        //if (ModelState.IsValid)
-        //{
-        //
-//            string uploadsFolder = Path.Combine(_webHostEnvironment.WebRootPath, "UploadedFiles");
-//            string fileName = Path.GetFileName(model.Parquet.FileName);
-//            string filePath = Path.Combine(uploadsFolder, fileName);
-        //    
-        //    using (var fileStream = new FileStream(filePath, FileMode.Create))
-        //    {
-        //        model.Parquet.CopyTo(fileStream);
-        //    }
-
-        //    using (var sr = new StreamReader(filePath.ToString()))
-        //    {
-        //        // Read the stream as a string, and write the string to the console.
-        //        Console.WriteLine(sr.ReadToEnd());
-        //    }
-        //}
-
-//https://stackoverflow.com/questions/20953475/how-to-open-multiple-windows-from-the-controller-in-asp-net-mvc
-
-        //return "This is the Welcome action method...";
-//        string fp = _webHostEnvironment.WebRootPath + "/parq";
-//        using (StreamWriter writer = new StreamWriter(fp))
-//        {
-//        using(Stream fs = System.IO.File.OpenRead(filePath.ToString())) {
-//            using(ParquetReader reader = await ParquetReader.CreateAsync(fs)) {
-//                for(int i = 0; i < reader.RowGroupCount; i++) {
-//                    using(ParquetRowGroupReader rowGroupReader = reader.OpenRowGroupReader(i)) {
-//
-//                        foreach(var df in reader.Schema.GetDataFields()) {
-//                            var columnData = await rowGroupReader.ReadColumnAsync(df);
-//                            foreach (var item in columnData.Data)
-//                            {
-//                                System.Console.WriteLine(item);      
-//
-//
-//                                    writer.WriteLine(item);
-//                                }                          
-//                            }
-//
-//                            // do something to the column...
-//                        }
-//                    }
-//                }
-//            }
-//        }
-//
-//
-//
-//        return View();
-//    }
 }

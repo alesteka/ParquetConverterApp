@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\dotnetCourse1\\ParquetConverter\\ParquetConverter.csproj": {}
+    "C:\\dotnetCourse1\\ParquetConverter\\ParquetConverter.csproj": {}
   },
   "projects": {
-    "c:\\dotnetCourse1\\gitPackage\\parquet-dotnet\\src\\Parquet\\Parquet.csproj": {
+    "C:\\dotnetCourse1\\gitPackage\\parquet-dotnet\\src\\Parquet\\Parquet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\dotnetCourse1\\gitPackage\\parquet-dotnet\\src\\Parquet\\Parquet.csproj",
+        "projectUniqueName": "C:\\dotnetCourse1\\gitPackage\\parquet-dotnet\\src\\Parquet\\Parquet.csproj",
         "projectName": "Parquet.Net",
-        "projectPath": "c:\\dotnetCourse1\\gitPackage\\parquet-dotnet\\src\\Parquet\\Parquet.csproj",
+        "projectPath": "C:\\dotnetCourse1\\gitPackage\\parquet-dotnet\\src\\Parquet\\Parquet.csproj",
         "packagesPath": "C:\\Users\\Aleš\\.nuget\\packages\\",
-        "outputPath": "c:\\dotnetCourse1\\gitPackage\\parquet-dotnet\\src\\Parquet\\obj\\",
+        "outputPath": "C:\\dotnetCourse1\\gitPackage\\parquet-dotnet\\src\\Parquet\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [
@@ -271,14 +271,14 @@
         }
       }
     },
-    "c:\\dotnetCourse1\\ParquetConverter\\ParquetConverter.csproj": {
+    "C:\\dotnetCourse1\\ParquetConverter\\ParquetConverter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\dotnetCourse1\\ParquetConverter\\ParquetConverter.csproj",
+        "projectUniqueName": "C:\\dotnetCourse1\\ParquetConverter\\ParquetConverter.csproj",
         "projectName": "ParquetConverter",
-        "projectPath": "c:\\dotnetCourse1\\ParquetConverter\\ParquetConverter.csproj",
+        "projectPath": "C:\\dotnetCourse1\\ParquetConverter\\ParquetConverter.csproj",
         "packagesPath": "C:\\Users\\Aleš\\.nuget\\packages\\",
-        "outputPath": "c:\\dotnetCourse1\\ParquetConverter\\obj\\",
+        "outputPath": "C:\\dotnetCourse1\\ParquetConverter\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Aleš\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -293,13 +293,16 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\dotnetCourse1\\gitPackage\\parquet-dotnet\\src\\Parquet\\Parquet.csproj": {
-                "projectPath": "c:\\dotnetCourse1\\gitPackage\\parquet-dotnet\\src\\Parquet\\Parquet.csproj"
+              "C:\\dotnetCourse1\\gitPackage\\parquet-dotnet\\src\\Parquet\\Parquet.csproj": {
+                "projectPath": "C:\\dotnetCourse1\\gitPackage\\parquet-dotnet\\src\\Parquet\\Parquet.csproj"
               }
             }
           }
         },
         "warningProperties": {
+          "noWarn": [
+            "NU1701"
+          ],
           "warnAsError": [
             "NU1605"
           ]

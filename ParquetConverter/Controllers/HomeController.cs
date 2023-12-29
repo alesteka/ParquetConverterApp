@@ -34,7 +34,7 @@ public class HomeController : Microsoft.AspNetCore.Mvc.Controller
     }
 
     [Microsoft.AspNetCore.Mvc.HttpGet]
-    public async Task<IActionResult> DownloadFile()
+    public IActionResult DownloadFile()
     {
         string fp = _webHostEnvironment.WebRootPath + "\\parq.txt";
         FileStream stream = System.IO.File.OpenRead(fp);

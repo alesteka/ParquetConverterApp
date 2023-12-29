@@ -6,21 +6,6 @@ using Microsoft.Extensions.FileProviders;
 
 var builder = WebApplication.CreateBuilder(args);
 
-
-//if (builder.Environment.IsDevelopment())
-//{
-//    builder.Services.AddDbContext<ParquetConverterContext>(options =>
-//        options.UseSqlite(builder.Configuration.GetConnectionString("ParquetConverterContext")));
-//}
-//else
-//{
-//    builder.Services.AddDbContext<ParquetConverterContext>(options =>
-//        options.UseSqlServer(builder.Configuration.GetConnectionString("ProductionParquetConverterContext")));
-//}
-
-//builder.Services.AddDbContext<ParquetConverterContext>(options =>
-//    options.UseNpgsql(builder.Configuration.GetConnectionString("ParquetConverterContext") ?? throw new InvalidOperationException("Connection string 'ParquetConverterContext' not found.")));
-
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 

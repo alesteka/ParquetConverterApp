@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CLiik9byNOQDM97hBp7rcBPUnnuAOsdwirDx1p6TdtM=",
+  "Hash": "6mFuLBnNl9/jsIOgp7IigyHRw3/CVc3g5vC7VHUVFzk=",
   "Source": "ParquetConverter",
   "BasePath": "_content/ParquetConverter",
   "Mode": "Default",
@@ -1137,57 +1137,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
-    },
-    {
-      "Identity": "C:\\dotnetCourse1\\ParquetConverter\\wwwroot\\UploadedFiles\\f.parquet",
-      "SourceId": "ParquetConverter",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\dotnetCourse1\\ParquetConverter\\wwwroot\\",
-      "BasePath": "_content/ParquetConverter",
-      "RelativePath": "UploadedFiles/f.parquet",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\UploadedFiles\\f.parquet"
-    },
-    {
-      "Identity": "C:\\dotnetCourse1\\ParquetConverter\\wwwroot\\UploadedFiles\\p.parquet",
-      "SourceId": "ParquetConverter",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\dotnetCourse1\\ParquetConverter\\wwwroot\\",
-      "BasePath": "_content/ParquetConverter",
-      "RelativePath": "UploadedFiles/p.parquet",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\UploadedFiles\\p.parquet"
-    },
-    {
-      "Identity": "C:\\dotnetCourse1\\ParquetConverter\\wwwroot\\UploadedFiles\\userdata1.parquet",
-      "SourceId": "ParquetConverter",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\dotnetCourse1\\ParquetConverter\\wwwroot\\",
-      "BasePath": "_content/ParquetConverter",
-      "RelativePath": "UploadedFiles/userdata1.parquet",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\UploadedFiles\\userdata1.parquet"
     }
   ]
 }
