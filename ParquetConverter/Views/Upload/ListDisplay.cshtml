@@ -1,0 +1,15 @@
+@{ Layout = null;}
+
+@model ParquetConverter.Models.ListViewModel
+
+<table>
+    @foreach (var innerList in Model.ListOfLists)
+    {
+        <tr>
+            @foreach (var item in innerList)
+            {
+                <td>@item</td>
+            }
+        </tr>
+    }
+</table>

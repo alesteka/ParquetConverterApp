@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.parent {
+    background: mediumpurple;
+    padding: 1rem;
+  }
+  .child {
+    border: 1px solid indigo;
+    padding: 1rem;
+  }

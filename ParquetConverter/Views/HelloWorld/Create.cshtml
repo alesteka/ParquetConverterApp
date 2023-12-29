@@ -1,0 +1,23 @@
+@model ParquetConverter.Models.ParquetModel
+
+<!-- some stuff -->
+
+@using (Html.BeginForm("Create", "HelloWorld", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <!-- Razor form controls for other model properties -->
+    @Html.LabelFor(m => m.Parquet)
+    <input type="file" name="Parquet" id="Parquet" />
+    
+    <input type="submit" value="Upload" name="UploadButton" id="UploadButton" />
+
+
+    
+    
+
+
+}
+
+
+
+
+
